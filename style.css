@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/premium-photo/chess-pieces-stand-board-selective-focus-concept-children-education_288716-836.jpg?w=740);
+    background-size: cover;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h1:hover{
+    color: goldenrod;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 275px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+.p1:hover{
+    color: greenyellow;
+}
+
+.p2:hover{
+    color: greenyellow;
+}
+
+.player {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    letter-spacing: 2px;
+    margin-left: 35px;
+}
